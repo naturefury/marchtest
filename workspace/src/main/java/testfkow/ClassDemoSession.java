@@ -11,6 +11,7 @@ public class ClassDemoSession {
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.navigate().to("https://fisglobal.fdbl.com/");
+	system.printout.ln("thankyou")
 	
 	}
 
